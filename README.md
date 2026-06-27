@@ -11,6 +11,7 @@ of passionate individuals who showed up, put in the work, and decided to
 make things better for every member who comes after them.
 This is their gift to the Codetopia Community. 🫶
 
+## The Initiators of this Project
 - [Rosemary Boahemaa Dwamena](https://portal.community.codetopia.org/@rosieee)
 - [Raymond Selorm Tormeti](https://portal.community.codetopia.org/@raymond_notch)
 - [Ramzy Gbati Konde](https://portal.community.codetopia.org/@ramzyq)
