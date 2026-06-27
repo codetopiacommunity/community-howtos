@@ -15,6 +15,8 @@ This is their gift to the Codetopia Community. 🫶
 - [Raymond Selorm Tormeti](https://portal.community.codetopia.org/@raymond_notch)
 - [Ramzy Gbati Konde](https://portal.community.codetopia.org/@ramzyq)
 - [Sheilla Mungai](https://portal.community.codetopia.org/@sheilla)
+- [Obed Yakpa](https://portal.community.codetopia.org/@obedyakpa)
+
 
 ## You're seeing this because...
 
