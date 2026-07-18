@@ -12,8 +12,8 @@ make things better for every member who comes after them.
 This is their gift to the Codetopia Community. 🫶
 
 ## The Initiators of this Project
-- [Rosemary Boahemaa Dwamena](https://portal.community.codetopia.org/@rosieee)
-- [Raymond Selorm Tormeti](https://portal.community.codetopia.org/@raymond_notch)
+- [Rosemary Boahemaa Dwamena](https://portal.community.codetopia.org/@rosemaryboahemaa)
+- [Raymond Selorm Tormeti](https://portal.community.codetopia.org/@_raymond06)
 - [Ramzy Gbati Konde](https://portal.community.codetopia.org/@ramzyq)
 - [Sheilla Mungai](https://portal.community.codetopia.org/@sheilla)
 - [Obed Yakpa](https://portal.community.codetopia.org/@obedyakpa)
