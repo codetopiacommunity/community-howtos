@@ -30,6 +30,6 @@ time building. Welcome. 🚀
 ## Contributing to this repo
 
 Found something outdated or missing? Open an issue or submit a PR.
-See [how to contribute](./contributing/01-how-to-contribute.mdx).
+See [how to contribute](./Contributing/01-ways-to-contribute.mdx).
 
 > Codetopia Community · [community.codetopia.org](https://community.codetopia.org)
