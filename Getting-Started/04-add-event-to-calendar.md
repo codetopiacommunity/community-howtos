@@ -14,11 +14,11 @@ Follow the steps below. Don't worry if you've never used Google Calendar before,
 
 3. Click on the plus sign at the bottom right corner of the page
 
-4. Your google calendar app on your mobile device will open. Select the account to which you want to subscribe to the codetopiacommunity calendar. ![Select an account](../images/Getting-Started/select-account.jpg)
+4. Your google calendar app on your mobile device will open. Select the account to which you want to subscribe to the Codetopia Ccommunity" calendar. ![Select an account](../images/Getting-Started/select-account.jpg)
 
-5. You will receive a message showing codetopiacommunity calendar has been added successfully
+5. You will receive a message showing Codetopia Ccommunity" calendar has been added successfully
 
-6. Next we need to make sure the codetopiacommunity calendar is in sync. This ensures that you get the latest events created by codetopiacommunity to show up in our google calendar.
+6. Next we need to make sure the Codetopia Ccommunity" calendar is in sync. This ensures that you get the latest events created by Codetopia Ccommunity" to show up in our google calendar.
 
 7. Open the Calendar menu. Look at the top-left corner of the screen. You will see the ☰ menu icon (three horizontal lines). 👉 Tap ☰. A menu will slide out from the side. ![menu icon](../images/Getting-Started/menu-icon.jpg)
 
