@@ -8,7 +8,7 @@ Follow the steps below. Don't worry if you've never used Google Calendar before,
 
 ## Option 1: Google Calendar
 
-1. Click on this link [Codetopia Community calendar](https://example.com)
+1. Click on this link [Codetopia Community calendar](https://calendar.google.com/calendar/u/0/embed?src=eventscodetopiacommunity@gmail.com&ctz=Africa/Abidjan)
 
 2. This opens in a browser on your mobile device. ![Mobile browser](../images/Getting-Started/mobile-browser.jpg)
 
