@@ -24,14 +24,13 @@ ignore all of it for as long as you like.
 
 1. Say hi in #introduce-yourself.
 2. Stuck? Ask in #ask-for-help.
-3. Want to fix or write something?
-   [Your first fix, in your browser](https://community.codetopia.org/howtos/Contributing/05-your-first-fix).
-   Want to write code for our projects?
-   [Start with the open source onboarding](https://github.com/codetopiacommunity/opensource-onboarding).
-4. Want to do something ongoing?
-   [See open roles](https://community.codetopia.org/careers), and read
-   [how the community works](https://community.codetopia.org/howtos/Contributing/07-how-the-community-works)
-   to see how people join a team.
+3. Come to an event. They are all on the
+   [events page](https://community.codetopia.org/events).
+4. Want to help? Check #get-involved for what the teams need right now.
+   [Help out](https://community.codetopia.org/howtos/Contributing/04-make-your-first-contribution)
+   shows you how.
+
+Want to do more? Tell a lead, or keep helping and a lead will ask you.
 
 The bot will show you this same list when you finish linking, and you
 can bring it back any time by typing `/newhere` in Discord.
@@ -43,15 +42,14 @@ Read these when you want them, in any order.
 - **[Your first week](https://community.codetopia.org/howtos/Getting-Started/03-your-first-week)**
   Where to say hello, which channels matter, and permission to ignore
   the rest.
+- **[Add our events to your calendar](https://community.codetopia.org/howtos/Getting-Started/04-add-event-to-calendar)**
+  See every meetup and session in your own calendar.
 - **[Help out](https://community.codetopia.org/howtos/Contributing/04-make-your-first-contribution)**
-  Finish one thing the community needs. No permission, no commitment.
-- **[Your first fix](https://community.codetopia.org/howtos/Contributing/05-your-first-fix)**
-  Fix one small thing in a real project, entirely in your browser.
+  Three ways to help when you have time, and how you get recognised.
 - **[Ways to contribute](https://community.codetopia.org/howtos/Contributing/06-ways-to-contribute)**
-  The full menu: taking part, helping out, running a team.
-- **[How the community works](https://community.codetopia.org/howtos/Contributing/07-how-the-community-works)**
-  The ladder from member to lead, core roles, and how to pause or step
-  back.
+  Show up, help when you can, and join a team if you want more.
+- **[Your first fix](https://community.codetopia.org/howtos/Contributing/05-your-first-fix)**
+  Practise GitHub: make a real pull request in your browser. Optional.
 
 If you get stuck anywhere, ask in #ask-for-help. Say what you were trying
 to do and what you saw instead. Nobody will think less of you.
