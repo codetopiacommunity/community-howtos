@@ -27,7 +27,7 @@ Depending on what you want to change, you can contribute directly in your browse
 ## Where Things Go
 
 - **Found a bug, typo, or something missing?** Open an issue on GitHub.
-- **Need help or have questions?** Ask in the `#ask-for-help` or `#general` channels on Discord.
+- **Need help or have questions?** Ask in the `#ask-for-help` channel on Discord.
 
 ---
 
