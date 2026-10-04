@@ -20,14 +20,14 @@ Everyone contributing here follows the <a href="https://community.codetopia.org/
 Depending on what you want to change, you can contribute directly in your browser or locally:
 
 1. **Quick fixes (Browser):** For typos, broken links, or minor text updates, you can edit files directly in your browser using the pencil icon, as shown in [Your First Fix](./Contributing/05-your-first-fix.mdx).
-2. **New guides or substantial additions:** For larger contributions, fork the repository, create a branch (`docs/your-topic`), and open a pull request. If you are not yet comfortable with GitHub, you can draft your guide in a Google Doc and post it in the `#general` channel on Discord where a member can help open the pull request for you (see [Ways to Contribute](./Contributing/06-ways-to-contribute.mdx)).
+2. **New guides or substantial additions:** For larger contributions, fork the repository, create a branch (`docs/your-topic`), and open a pull request. If you are not yet comfortable with GitHub, you can draft your guide in a Google Doc and post it in the `#general` channel on Discord where a member can help open the pull request for you.
 
 ---
 
 ## Where Things Go
 
 - **Found a bug, typo, or something missing?** Open an issue on GitHub.
-- **Need help or have questions?** Ask in the `#ask-for-help` or `#general` channels on Discord.
+- **Need help or have questions?** Ask in the `#ask-for-help` channel on Discord.
 
 ---
 
