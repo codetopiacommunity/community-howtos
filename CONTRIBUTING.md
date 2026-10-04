@@ -4,6 +4,12 @@ This repository contains the onboarding and how-to guides for Codetopia Communit
 
 Everyone contributing here follows the <a href="https://community.codetopia.org/code-of-conduct" target="_blank" rel="noopener noreferrer">Codetopia Community Code of Conduct</a>.
 
+> **New to GitHub?** You do not need to understand forks or branches to
+> help. Start with
+> [Your First Pull Request](https://community.codetopia.org/howtos/contributing/your-first-pull-request),
+> a ten-minute guide in your browser. Any unfamiliar word below is
+> explained in the onboarding course's
+> [glossary](https://github.com/codetopiacommunity/opensource-onboarding/blob/main/GLOSSARY.md).
 ---
 
 ## What We Need Most
