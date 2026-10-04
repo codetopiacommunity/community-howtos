@@ -8,11 +8,13 @@ a beginner.
 
 ## Joining, the whole thing
 
-Do these two steps in this order:
+You need two things: a **portal account** (your member account on our
+website) and **Discord** (the free chat app where the community talks
+every day). Do these two steps in this order:
 
 1. **[Create your portal account](https://community.codetopia.org/howtos/getting-started/join-the-community)**
    Your name, what you are here to build, and the code of conduct.
-2. **[Join Discord and run `/link`](https://community.codetopia.org/howtos/getting-started/discord-guide)**
+2. **[Join Discord and type `/link`](https://community.codetopia.org/howtos/getting-started/discord-guide)**
    This connects your Discord account to your portal account and opens
    the server. It needs the portal account from step 1.
 
@@ -22,6 +24,9 @@ ignore all of it for as long as you like.
 
 ## New here? Four things you can do
 
+On Discord, names that start with `#` are **channels**: chat rooms, one
+for each topic.
+
 1. Say hi in #introduce-yourself.
 2. Stuck? Ask in #ask-for-help.
 3. Come to an event. They are all on the
@@ -30,17 +35,19 @@ ignore all of it for as long as you like.
    [Help out](https://community.codetopia.org/howtos/contributing/help-out)
    shows you how.
 
-The bot will show you this same list when you finish linking, and you
-can bring it back any time by typing `/newhere` in Discord.
+**Vector**, our community bot, shows you this same list when you finish
+linking. Type `/newhere` anywhere in Discord to bring it back.
 
 ## Want to do more?
 
 Want to join a team, or have something to offer (a workshop, code
 reviews, a project idea)? **Post in #get-involved** with the team's tag
-and a line about yourself, or message the team's lead. The leads are
+and a line about yourself, or message the team's lead privately. The leads are
 pinned at the top of #get-involved.
 
-Not sure which team? Ask in #ask-for-help.
+Not sure which team? Ask in #ask-for-help. New to posting on Discord?
+The [Discord guide](https://community.codetopia.org/howtos/getting-started/discord-guide)
+shows how to make a post, add a tag and message someone.
 
 Read the other guides when you want them, in any order. A good next one
 is [Your first week](https://community.codetopia.org/howtos/getting-started/your-first-week).
