@@ -46,7 +46,7 @@ and a line about yourself, or message the team's lead privately. The leads are
 pinned at the top of #get-involved.
 
 Not sure which team? Ask in #ask-for-help. New to posting on Discord?
-The [Discord guide](https://community.codetopia.org/howtos/getting-started/discord-guide)
+[Using Discord](https://community.codetopia.org/howtos/getting-started/using-discord)
 shows how to make a post, add a tag and message someone.
 
 Read the other guides when you want them, in any order. A good next one
