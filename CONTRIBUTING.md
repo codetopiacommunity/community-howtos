@@ -82,6 +82,15 @@ When editing or writing guides in this repository, follow these conventions:
 
   Save actual images under the `images/` directory. Keep static images as PNGs under 500 KB and GIFs under 2 MB.
 
+- **Images side by side:** wrap them in `<ImageRow>`, one image per line, for example a phone's channel list next to an open channel. They share the width equally and wrap on narrow screens:
+
+  ```mdx
+  <ImageRow>
+  ![Channel list on a phone](https://raw.githubusercontent.com/.../channels.jpg)
+  ![An open channel on a phone](https://raw.githubusercontent.com/.../messages.jpg)
+  </ImageRow>
+  ```
+
 ---
 
 ## Licensing
