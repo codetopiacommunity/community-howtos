@@ -44,6 +44,9 @@ When editing or writing guides in this repository, follow these conventions:
   ---
   ```
 
+- **File names:** number guides within their folder, starting at `01`: `01-ways-to-contribute.mdx`, `02-help-out.mdx`. The number only sets the order. The website leaves it out of the address, so `Contributing/02-help-out.mdx` lives at `community.codetopia.org/howtos/contributing/help-out`. Renumbering never breaks a link, but two guides in the same folder must not share a name after the number.
+- **Links between guides:** use the address without the number, like `../contributing/help-out` or `./discord-guide`.
+
 - **Plain language & second person:** Write for beginners. Use "you will see" rather than passive voice.
 - **Commands & output:** Every command should be in a fenced code block followed by a "What you should see" description and output block.
 - **GitHub alerts:** Use standard alerts for asides:

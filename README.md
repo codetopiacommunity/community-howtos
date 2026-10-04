@@ -10,9 +10,9 @@ a beginner.
 
 Do these two steps in this order:
 
-1. **[Create your portal account](https://community.codetopia.org/howtos/Getting-Started/01-join-the-community)**
+1. **[Create your portal account](https://community.codetopia.org/howtos/getting-started/join-the-community)**
    Your name, what you are here to build, and the code of conduct.
-2. **[Join Discord and run `/link`](https://community.codetopia.org/howtos/Getting-Started/02-discord-guide)**
+2. **[Join Discord and run `/link`](https://community.codetopia.org/howtos/getting-started/discord-guide)**
    This connects your Discord account to your portal account and opens
    the server. It needs the portal account from step 1.
 
@@ -27,7 +27,7 @@ ignore all of it for as long as you like.
 3. Come to an event. They are all on the
    [events page](https://community.codetopia.org/events).
 4. Want to help? Check #get-involved for what the teams need right now.
-   [Help out](https://community.codetopia.org/howtos/Contributing/02-help-out)
+   [Help out](https://community.codetopia.org/howtos/contributing/help-out)
    shows you how.
 
 The bot will show you this same list when you finish linking, and you
@@ -43,7 +43,7 @@ pinned at the top of #get-involved.
 Not sure which team? Ask in #ask-for-help.
 
 Read the other guides when you want them, in any order. A good next one
-is [Your first week](https://community.codetopia.org/howtos/Getting-Started/03-your-first-week).
+is [Your first week](https://community.codetopia.org/howtos/getting-started/your-first-week).
 
 If you get stuck anywhere, ask in #ask-for-help. Say what you were trying
 to do and what you saw instead. Nobody will think less of you.
