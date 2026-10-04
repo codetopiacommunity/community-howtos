@@ -19,7 +19,7 @@ Everyone contributing here follows the <a href="https://community.codetopia.org/
 
 Depending on what you want to change, you can contribute directly in your browser or locally:
 
-1. **Quick fixes (Browser):** For typos, broken links, or minor text updates, edit the file directly in your browser: open it on GitHub, click the pencil icon, make the change, then click **Commit changes...** and **Propose changes**, and open the pull request. GitHub makes your fork for you. New to pull requests? [Your First Pull Request](./Contributing/05-your-first-fix.mdx) walks you through one step by step.
+1. **Quick fixes (Browser):** For typos, broken links, or minor text updates, edit the file directly in your browser: open it on GitHub, click the pencil icon, make the change, then click **Commit changes...** and **Propose changes**, and open the pull request. GitHub makes your fork for you. New to pull requests? [Your First Pull Request](./Contributing/03-your-first-pull-request.mdx) walks you through one step by step.
 2. **New guides or substantial additions:** For larger contributions, fork the repository, create a branch (`docs/your-topic`), and open a pull request. If you are not yet comfortable with GitHub, you can draft your guide in a Google Doc and post it in the `#general` channel on Discord where a member can help open the pull request for you.
 
 ---

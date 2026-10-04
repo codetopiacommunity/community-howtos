@@ -27,7 +27,7 @@ ignore all of it for as long as you like.
 3. Come to an event. They are all on the
    [events page](https://community.codetopia.org/events).
 4. Want to help? Check #get-involved for what the teams need right now.
-   [Help out](https://community.codetopia.org/howtos/Contributing/04-make-your-first-contribution)
+   [Help out](https://community.codetopia.org/howtos/Contributing/02-help-out)
    shows you how.
 
 The bot will show you this same list when you finish linking, and you
