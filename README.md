@@ -8,13 +8,13 @@ a beginner.
 
 ## Joining, the whole thing
 
+Do these two steps in this order:
+
 1. **[Create your portal account](https://community.codetopia.org/howtos/Getting-Started/01-join-the-community)**
    Your name, what you are here to build, and the code of conduct.
 2. **[Join Discord and run `/link`](https://community.codetopia.org/howtos/Getting-Started/02-discord-guide)**
    This connects your Discord account to your portal account and opens
-   the server.
-
-Either one first is fine. Both meet at `/link`.
+   the server. It needs the portal account from step 1.
 
 **That is it. You are a member.** There is no task to finish, nothing to
 sign, and nobody to wait for. Everything below is optional, and you can
@@ -27,29 +27,23 @@ ignore all of it for as long as you like.
 3. Come to an event. They are all on the
    [events page](https://community.codetopia.org/events).
 4. Want to help? Check #get-involved for what the teams need right now.
-   [Help out](https://community.codetopia.org/howtos/Contributing/04-make-your-first-contribution)
+   [Help out](https://community.codetopia.org/howtos/Contributing/02-help-out)
    shows you how.
-
-Want to do more? Tell a lead, or keep helping and a lead will ask you.
 
 The bot will show you this same list when you finish linking, and you
 can bring it back any time by typing `/newhere` in Discord.
 
-## The rest of the guides
+## Want to do more?
 
-Read these when you want them, in any order.
+Want to join a team, or have something to offer (a workshop, code
+reviews, a project idea)? **Post in #get-involved** with the team's tag
+and a line about yourself, or message the team's lead. The leads are
+pinned at the top of #get-involved.
 
-- **[Your first week](https://community.codetopia.org/howtos/Getting-Started/03-your-first-week)**
-  Where to say hello, which channels matter, and permission to ignore
-  the rest.
-- **[Add our events to your calendar](https://community.codetopia.org/howtos/Getting-Started/04-add-event-to-calendar)**
-  See every meetup and session in your own calendar.
-- **[Help out](https://community.codetopia.org/howtos/Contributing/04-make-your-first-contribution)**
-  Three ways to help when you have time, and how you get recognised.
-- **[Ways to contribute](https://community.codetopia.org/howtos/Contributing/06-ways-to-contribute)**
-  Show up, help when you can, and join a team if you want more.
-- **[Your first pull request](https://community.codetopia.org/howtos/Contributing/05-your-first-fix)**
-  Practise GitHub: add a file about yourself, in your browser. Optional.
+Not sure which team? Ask in #ask-for-help.
+
+Read the other guides when you want them, in any order. A good next one
+is [Your first week](https://community.codetopia.org/howtos/Getting-Started/03-your-first-week).
 
 If you get stuck anywhere, ask in #ask-for-help. Say what you were trying
 to do and what you saw instead. Nobody will think less of you.
@@ -69,10 +63,9 @@ to the Codetopia Community. 🫶
 - [Kelvin Kitheka](https://portal.community.codetopia.org/@kitheka)
 - [Regis Alain Udahemuka](https://portal.community.codetopia.org/@alain_regis)
 
-## Contributing to this repo
+## Spotted a mistake?
 
-Found something outdated or missing? Open an issue or submit a pull
-request. [CONTRIBUTING.md](./CONTRIBUTING.md) shows you how, including
-quick fixes in your browser.
+If a guide is wrong or out of date,
+[here is how to fix it](https://github.com/codetopiacommunity/community-howtos/blob/main/CONTRIBUTING.md).
 
 > Codetopia Community · [community.codetopia.org](https://community.codetopia.org)
