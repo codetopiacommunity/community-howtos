@@ -1,18 +1,18 @@
 ---
-title: Your First Fix
-description: Practise GitHub. Fix one small thing in our practice project, in your browser, in about fifteen minutes.
+title: Your First Pull Request
+description: Practise GitHub. Add a file about yourself to our practice project, in your browser, in about ten minutes.
 ---
 
-# Your First Fix
+# Your First Pull Request
 
-A real pull request on our practice project, reviewed and merged. About
-**fifteen minutes**, all in your browser. Nothing to install.
+A real pull request on our practice project, reviewed and merged. You
+add one small file about yourself. About **ten minutes**, all in your
+browser. Nothing to install.
 
 > [!NOTE]
 > Words you will see on screen:
 >
 > - **Repository** (repo): a project's folder of files on GitHub.
-> - **Issue**: a note saying something is wrong.
 > - **Fork**: your own copy of a repo. Changing it cannot break the
 >   original.
 > - **Commit**: a saved change with a short note.
@@ -29,87 +29,78 @@ profile picture at the top right of any GitHub page means you are.
 
 ---
 
-## Step 1: Pick an issue
+## Step 1: Open the contributors folder
 
-<a href="https://github.com/codetopiacommunity/open-source-practice/issues" target="_blank" rel="noopener noreferrer">🔗 Open the issues list</a>
+<a href="https://github.com/codetopiacommunity/open-source-practice/tree/main/contributors" target="_blank" rel="noopener noreferrer">🔗 Open the contributors folder</a>
 
-1. Click any title to open it.
-2. Note the **file name** it mentions (like `docs/about.md`) and the
-   **issue number** next to the title (like `#1`).
-3. Scroll to the bottom, type **"I'd like to take this one"** in the
-   comment box, and click **Comment**.
+You will see a `README.md` and one file for every person who has done
+this before you.
 
-{/* IMAGE NEEDED: images/Contributing/first-fix/pick-an-issue.png
-    Show: an open issue with the file name in the body, the number next
-    to the title, and the comment box below, all circled.
-    Device: computer. */}
+{/* IMAGE NEEDED: images/Contributing/first-pr/contributors-folder.png
+    Show: the contributors folder on GitHub with a few files listed and
+    the "Add file" button circled. Device: computer. */}
 
 ---
 
-## Step 2: Open the file
+## Step 2: Create your file
 
-1. Click **open-source-practice** at the top of the page to go to the
-   repo's front page.
-2. Click the folder from the file name, for example `docs`.
-3. Click the file, for example `about.md`.
+1. Click **Add file**, then **Create new file**.
+2. GitHub says you are making changes in a project you don't have
+   write access to. That is expected. It will make your own copy (a
+   fork) for you when you save.
+3. In the name box at the top, type your **GitHub username** followed
+   by `.md`. For example: `kofi-mensah.md`.
 
-{/* IMAGE NEEDED: images/Contributing/first-fix/open-the-file.png
-    Show: the repo front page with the docs folder circled, then the
-    file open. Device: computer. */}
+> [!IMPORTANT]
+> Use your GitHub username as the file name, not your real name. Two
+> people can share a name, but never a username.
 
 ---
 
-## Step 3: Edit it
+## Step 3: Write about yourself
 
-1. Click the **pencil icon** at the top right of the file.
-2. GitHub says **"You need to fork this repository to propose
-   changes."** That is expected. Click **Fork this repository**.
-3. The file opens in an editor. Make the change the issue asked for.
-   Nothing else.
+In the big box, paste this and fill in the blanks:
 
-{/* IMAGE NEEDED: images/Contributing/first-fix/pencil-and-fork.png
-    Show: the pencil icon circled, then the fork message with the Fork
-    this repository button circled. Device: computer. */}
+```
+# Your Name
 
-{/* IMAGE NEEDED: images/Contributing/first-fix/edit-phone.jpg
-    Show: the same file on a phone with the edit control circled.
-    Device: phone. */}
+- From: Your city, your country
+- Learning right now: what you are learning
+- Fun fact: one thing about you
+```
 
-{/* UNVERIFIED: on a phone the pencil may sit behind a three-dots (⋯)
-    button at the top right of the file. Check on a real phone and add
-    a one-line tip here if so. */}
+Keep it short. Three lines is plenty.
+
+{/* IMAGE NEEDED: images/Contributing/first-pr/new-file.png
+    Show: the new file editor with the file name typed and the template
+    filled in. Device: computer. */}
 
 ---
 
 ## Step 4: Save it
 
 1. Click the green **Commit changes...** button at the top right.
-2. In **Commit message**, write what you did: "Fix typo in
-   docs/about.md".
+2. In **Commit message**, write what you did: `Add kofi-mensah to
+   contributors`, using your username.
 3. Click **Propose changes**.
-
-{/* IMAGE NEEDED: images/Contributing/first-fix/commit.png
-    Show: the Commit changes pop-up with a message typed and Propose
-    changes circled. Device: computer. */}
 
 ---
 
 ## Step 5: Open the pull request
 
-1. Click the green **Create pull request** button.
-2. In the description box, type `Closes #1`, using your issue number.
-3. Click **Create pull request** again.
+1. GitHub shows your change. Click the green **Create pull request**
+   button.
+2. Click **Create pull request** again.
 
-{/* IMAGE NEEDED: images/Contributing/first-fix/pull-request.png
-    Show: the PR form with "Closes #1" typed and Create pull request
-    circled. Device: computer. */}
+{/* IMAGE NEEDED: images/Contributing/first-pr/create-pull-request.png
+    Show: the pull request form with Create pull request circled.
+    Device: computer. */}
 
 ---
 
 ## Done when
 
-Your pull request is open, with your name on it and `Closes #` in the
-description. 🎉
+Your pull request is open, with your name on it. 🎉
 
 You do not need to post it anywhere. The maintainers are notified on
 GitHub when you open it.
@@ -118,31 +109,39 @@ GitHub when you open it.
 
 ## What happens next
 
-Someone from the Projects & Tech team reviews it. They may ask for a
-small change. That is normal, not criticism. No word after a few days?
-Ask in **#ask-for-help** with the link.
+Someone from the Projects & Tech team reviews it and merges it. Your
+file then sits in the folder next to everyone else's.
 
-To make it: open your pull request, click **Files changed**, click the
-**⋯** at the top right of your file, choose **Edit file**, change it,
-and click **Commit changes...**. It joins the same pull request.
+They may ask for a small change. That is normal, not criticism. To make
+it: open your pull request, click **Files changed**, click the **⋯** at
+the top right of your file, choose **Edit file**, change it, and click
+**Commit changes...**. It joins the same pull request.
+
+No word after a few days? Ask in **#ask-for-help** with the link.
 
 ---
 
 ## Stuck?
 
-- **No pencil icon?** Open the file itself, not its folder.
-- **Someone already claimed it?** Pick another issue.
-- **Anything else?** Ask in **#ask-for-help**. Say what you tried and what
-  you saw.
+- **No "Add file" button?** Make sure you are signed in to GitHub and
+  inside the `contributors` folder. On a phone, try the desktop site.
+- **GitHub says the file already exists?** Someone already used that
+  name. Check that you typed your own username.
+- **Anything else?** Ask in **#ask-for-help**. Say what you tried and
+  what you saw.
 
 ---
 
 ## What's next?
 
-Browser editing is fine for typos. For real bugs you need Git on your
-own machine. The open source onboarding walks you through it from
-zero, at your pace.
+You just did in the browser what developers do every day. To do it on
+your own computer, with Git and the terminal, take the open source
+onboarding course. It starts from zero and goes at your pace.
 
-<a href="https://github.com/codetopiacommunity/opensource-onboarding" target="_blank" rel="noopener noreferrer">🔗 Learn to contribute properly</a>
+<a href="https://github.com/codetopiacommunity/opensource-onboarding" target="_blank" rel="noopener noreferrer">🔗 Open source onboarding</a>
+
+> [!TIP]
+> Questions about the course go in its GitHub Discussions, which also
+> reach our Discord. Anything else goes in **#ask-for-help**.
 
 Not into code? 🔗 [Ways to contribute](./06-ways-to-contribute)

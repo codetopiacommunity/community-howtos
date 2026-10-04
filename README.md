@@ -48,8 +48,8 @@ Read these when you want them, in any order.
   Three ways to help when you have time, and how you get recognised.
 - **[Ways to contribute](https://community.codetopia.org/howtos/Contributing/06-ways-to-contribute)**
   Show up, help when you can, and join a team if you want more.
-- **[Your first fix](https://community.codetopia.org/howtos/Contributing/05-your-first-fix)**
-  Practise GitHub: make a real pull request in your browser. Optional.
+- **[Your first pull request](https://community.codetopia.org/howtos/Contributing/05-your-first-fix)**
+  Practise GitHub: add a file about yourself, in your browser. Optional.
 
 If you get stuck anywhere, ask in #ask-for-help. Say what you were trying
 to do and what you saw instead. Nobody will think less of you.
@@ -72,7 +72,7 @@ to the Codetopia Community. 🫶
 ## Contributing to this repo
 
 Found something outdated or missing? Open an issue or submit a pull
-request. If you have never done that before,
-[Your first fix](https://community.codetopia.org/howtos/Contributing/05-your-first-fix) shows you how.
+request. [CONTRIBUTING.md](./CONTRIBUTING.md) shows you how, including
+quick fixes in your browser.
 
 > Codetopia Community · [community.codetopia.org](https://community.codetopia.org)
