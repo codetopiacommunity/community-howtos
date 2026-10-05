@@ -82,6 +82,20 @@ When editing or writing guides in this repository, follow these conventions:
 
   Save actual images under the `images/` directory. Keep static images as PNGs under 500 KB and GIFs under 2 MB.
 
+- **Show things as they look on screen.** Guides can use these components (the website renders them; on GitHub they show as plain text):
+
+  | Write | For | Example |
+  |---|---|---|
+  | `<Command>/link</Command>` | a Discord command to type | Type `<Command>/newhere</Command>` |
+  | `<Channel>ask-for-help</Channel>` | a Discord channel (no `#`) | Ask in `<Channel>ask-for-help</Channel>` |
+  | `<Button>Create Account</Button>` | a button, exactly as labelled | Click `<Button>Save Changes</Button>` |
+  | `<Key>Enter</Key>` | a keyboard key | Hold `<Key>Shift</Key>` and press `<Key>Enter</Key>` |
+  | `<DoneWhen>…</DoneWhen>` | how the reader knows they finished | Wrap the list, with blank lines inside |
+  | `<Steps>` + `<Step title="…" href="…" time="…">…</Step>` | numbered step cards | See README.md |
+  | `<Cards>` + `<Card title="…" href="…">…</Card>` | a grid of cards | See README.md |
+
+  Don't put components inside headings or inside link text.
+
 - **Images side by side:** wrap them in `<ImageRow>`, one image per line, for example a phone's channel list next to an open channel. They share the width equally and wrap on narrow screens:
 
   ```mdx
