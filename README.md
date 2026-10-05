@@ -1,6 +1,6 @@
 # Start here
 
-Joining takes two steps and about ten minutes. Then you are in.
+Joining takes two steps and about twenty minutes. Then you are in.
 
 Codetopia Community is a group of builders and learners figuring it out
 together, based in Ghana and open to the world. Everyone here started as
@@ -51,6 +51,11 @@ shows how to make a post, add a tag and message someone.
 
 Read the other guides when you want them, in any order. A good next one
 is [Your first week](https://community.codetopia.org/howtos/getting-started/your-first-week).
+
+Questions about anything? The
+[FAQ](https://community.codetopia.org/howtos/getting-started/faq)
+answers the common ones. If someone ever makes you uncomfortable, see
+[Staying safe](https://community.codetopia.org/howtos/getting-started/staying-safe).
 
 If you get stuck anywhere, ask in #ask-for-help. Say what you were trying
 to do and what you saw instead. Nobody will think less of you.
