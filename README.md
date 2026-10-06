@@ -35,7 +35,7 @@ Introduce yourself in <Channel>introduce-yourself</Channel>.
 Stuck on anything? Ask in <Channel>ask-for-help</Channel>.
 </Card>
 <Card title="Come to an event" href="/howtos/getting-started/going-to-an-event">
-Meetups, workshops and online sessions. Here is how to join one.
+Live chats on X, meetups and conferences. Here is how to join one.
 </Card>
 <Card title="Help out" href="/howtos/contributing/help-out">
 See what the teams need right now in <Channel>get-involved</Channel>.
@@ -47,8 +47,8 @@ It comes from **Vector**, our community bot.
 
 ## Want to do more?
 
-Want to join a team, or have something to offer, like a workshop, code
-reviews or a project idea? Post in <Channel>get-involved</Channel> with
+Want to join a team, or have something to offer, like code reviews or
+a project idea? Post in <Channel>get-involved</Channel> with
 the team's tag and a line about yourself, or message the team's lead
 privately. The leads are pinned at the top of <Channel>get-involved</Channel>.
 [Ways to contribute](https://community.codetopia.org/howtos/contributing/ways-to-contribute) explains
