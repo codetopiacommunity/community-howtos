@@ -4,26 +4,26 @@ Codetopia Community is a group of builders and learners figuring it out
 together, based in Ghana and open to the world. Everyone here started as
 a beginner.
 
-## Join in three steps
+## Joining
 
-About twenty minutes. Do them in this order.
+Three steps, in this order. Together they take about twenty minutes.
 
 <Steps>
-<Step title="Create your portal account" href="/howtos/getting-started/join-the-community" time="About 10 minutes">
+<Step title="Create your portal account" href="/howtos/getting-started/join-the-community" time="10 min">
 Your member account on our website: your name, what you are here to build, and the code of conduct.
 </Step>
-<Step title="Join Discord and link your account" href="/howtos/getting-started/discord-guide" time="About 10 minutes">
+<Step title="Join Discord and link your account" href="/howtos/getting-started/discord-guide" time="10 min">
 Discord is the free chat app where the community talks every day. Typing <Command>/link</Command> connects it to your portal account and opens the server.
 </Step>
-<Step title="Learn the basics of Discord" href="/howtos/getting-started/using-discord" time="About 5 minutes">
+<Step title="Learn the basics of Discord" href="/howtos/getting-started/using-discord" time="5 min">
 Post a question, message someone, send a file, and turn down notifications.
 </Step>
 </Steps>
 
-**That is it. You are a member.** There is no task to finish, nothing to
-sign, and nobody to wait for. Everything below is optional.
+That's it, you're a member. There's nothing else to finish, sign or wait
+for. Everything below is optional.
 
-## Once you are in
+## Then, whenever you like
 
 On Discord, names that start with `#` are **channels**: chat rooms, one
 for each topic.
