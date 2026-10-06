@@ -20,8 +20,7 @@ Post a question, message someone, send a file, and turn down notifications.
 </Step>
 </Steps>
 
-That's it, you're a member. There's nothing else to finish, sign or wait
-for. Everything below is optional.
+After that, you're a member. Everything below is optional.
 
 ## Then, whenever you like
 
@@ -43,8 +42,8 @@ See what the teams need right now in <Channel>get-involved</Channel>.
 </Card>
 </Cards>
 
-Lost at any point? Type <Command>/newhere</Command> anywhere in Discord.
-**Vector**, our community bot, shows you this same list.
+Type <Command>/newhere</Command> anywhere in Discord to see this list again.
+It comes from **Vector**, our community bot.
 
 ## Want to do more?
 
@@ -64,7 +63,7 @@ ones. If someone ever makes you uncomfortable, see
 This project was initiated by the June to July 2026 intern cohort, a
 group of people who showed up, put in the work, and decided to make
 things better for every member who comes after them. This is their gift
-to the Codetopia Community. 🫶
+to the Codetopia Community.
 
 - [Rosemary Boahemaa Dwamena](https://portal.community.codetopia.org/@rosemaryboahemaa)
 - [Raymond Selorm Tormeti](https://portal.community.codetopia.org/@_raymond06)
