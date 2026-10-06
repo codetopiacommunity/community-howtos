@@ -4,26 +4,25 @@ Codetopia Community is a group of builders and learners figuring it out
 together, based in Ghana and open to the world. Everyone here started as
 a beginner.
 
-## Join in three steps
+## Joining
 
-About twenty minutes. Do them in this order.
+Three steps, in this order. Together they take about 25 minutes.
 
 <Steps>
-<Step title="Create your portal account" href="/howtos/getting-started/join-the-community" time="About 10 minutes">
+<Step title="Create your portal account" href="/howtos/getting-started/join-the-community" time="10 min">
 Your member account on our website: your name, what you are here to build, and the code of conduct.
 </Step>
-<Step title="Join Discord and link your account" href="/howtos/getting-started/discord-guide" time="About 10 minutes">
+<Step title="Join Discord and link your account" href="/howtos/getting-started/discord-guide" time="10 min">
 Discord is the free chat app where the community talks every day. Typing <Command>/link</Command> connects it to your portal account and opens the server.
 </Step>
-<Step title="Learn the basics of Discord" href="/howtos/getting-started/using-discord" time="About 5 minutes">
+<Step title="Learn the basics of Discord" href="/howtos/getting-started/using-discord" time="5 min">
 Post a question, message someone, send a file, and turn down notifications.
 </Step>
 </Steps>
 
-**That is it. You are a member.** There is no task to finish, nothing to
-sign, and nobody to wait for. Everything below is optional.
+After that, you're a member. Everything below is optional.
 
-## Once you are in
+## Then, whenever you like
 
 On Discord, names that start with `#` are **channels**: chat rooms, one
 for each topic.
@@ -43,8 +42,8 @@ See what the teams need right now in <Channel>get-involved</Channel>.
 </Card>
 </Cards>
 
-Lost at any point? Type <Command>/newhere</Command> anywhere in Discord.
-**Vector**, our community bot, shows you this same list.
+Type <Command>/newhere</Command> anywhere in Discord to see this list again.
+It comes from **Vector**, our community bot.
 
 ## Want to do more?
 
@@ -64,7 +63,7 @@ ones. If someone ever makes you uncomfortable, see
 This project was initiated by the June to July 2026 intern cohort, a
 group of people who showed up, put in the work, and decided to make
 things better for every member who comes after them. This is their gift
-to the Codetopia Community. 🫶
+to the Codetopia Community.
 
 - [Rosemary Boahemaa Dwamena](https://portal.community.codetopia.org/@rosemaryboahemaa)
 - [Raymond Selorm Tormeti](https://portal.community.codetopia.org/@_raymond06)
