@@ -6,7 +6,7 @@ a beginner.
 
 ## Joining
 
-Three steps, in this order. Together they take about twenty minutes.
+Three steps, in this order. Together they take about 25 minutes.
 
 <Steps>
 <Step title="Create your portal account" href="/howtos/getting-started/join-the-community" time="10 min">
