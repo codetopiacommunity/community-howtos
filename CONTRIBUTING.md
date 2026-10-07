@@ -7,7 +7,7 @@ Everyone contributing here follows the <a href="https://community.codetopia.org/
 > **New to GitHub?** You do not need to understand forks or branches to
 > help. Start with
 > [Your first pull request, in your browser](https://community.codetopia.org/howtos/contributing/your-first-pull-request),
-> a ten-minute guide in your browser. Any unfamiliar word below is
+> a fifteen-minute guide in your browser. Any unfamiliar word below is
 > explained in the onboarding course's
 > [glossary](https://github.com/codetopiacommunity/opensource-onboarding/blob/main/GLOSSARY.md).
 ---
@@ -25,7 +25,13 @@ Everyone contributing here follows the <a href="https://community.codetopia.org/
 
 Depending on what you want to change, you can contribute directly in your browser or locally:
 
-1. **Quick fixes (Browser):** For typos, broken links, or minor text updates, edit the file directly in your browser: open it on GitHub, click the pencil icon, make the change, then click **Commit changes...** and **Propose changes**, and open the pull request. GitHub makes your fork for you. New to pull requests? [Your first pull request, in your browser](./Contributing/03-your-first-pull-request.mdx) walks you through one step by step.
+1. **Quick fixes (Browser):** For typos, broken links, or minor text updates. GitHub no longer lets you edit our files directly (clicking the pencil shows *You need to fork this repository to propose changes*), so make your own copy first:
+   1. On this repository's page, click **Fork**, then **Create fork**. Under the title of your copy it says *forked from codetopiacommunity/community-howtos*.
+   2. In **your copy**, open the file you want to fix and click the **pencil** at the top right of it.
+   3. Make the change, click **Commit changes...**, then **Commit changes** in the box.
+   4. Click **Contribute**, then **Open pull request**, then **Create pull request**.
+
+   New to pull requests? [Your first pull request, in your browser](https://community.codetopia.org/howtos/contributing/your-first-pull-request) walks through the same steps with pictures.
 2. **New guides or substantial additions:** For larger contributions, fork the repository, create a branch (`docs/your-topic`), and open a pull request. If you are not yet comfortable with GitHub, you can draft your guide in a Google Doc and post it in the `#general` channel on Discord where a member can help open the pull request for you.
 
 ---
