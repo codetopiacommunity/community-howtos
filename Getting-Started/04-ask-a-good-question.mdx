@@ -1,0 +1,188 @@
+---
+title: Ask a good question
+description: Ask in #ask-for-help so people can answer you fast, then mark your question solved.
+---
+
+# Ask a good question
+
+Stuck? Ask in <Channel>ask-for-help</Channel>. The people who answer are
+members like you, helping in their free time. A clear question gets an
+answer in minutes. A vague one takes hours of back and forth.
+
+No question is too basic. Everyone here started as a beginner.
+
+{/* TODO for maintainers: add phone screenshots for Steps 2, 4 and 6
+    (New Post, the tags, and Edit Tags in the Discord phone app), and
+    a line for anything that works differently on a phone. */}
+
+---
+
+## Step 1: Check if it's already answered
+
+1. Read your error message to the end. The last lines often say what
+   is wrong.
+2. Open <Channel>ask-for-help</Channel>. Click the box at the top that
+   says **Search or create a post...** and type one word from your
+   problem, like *npm* or *GitHub*.
+
+   **You will see:** only the posts that match your word. Click a title
+   to open that post.
+
+   ![The search box with a word typed in, and the Shift + Enter hint at the right](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/02-search.jpg)
+
+> [!WARNING]
+> Do not press <Key>Shift</Key> and <Key>Enter</Key> together in this
+> box. That posts your search words as a new question straight away.
+
+3. Found your answer? You are done. Not there? Click **Clear** under the
+   box and go on to Step 2.
+
+Asked an AI tool and it didn't help? That's fine. Keep what it told
+you: you will add it in Step 3.
+
+---
+
+## Step 2: Start a new post
+
+1. Click <Button>New Post</Button> at the top right of the channel.
+
+   ![The New Post button at the top right of ask-for-help](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/01-new-post-button.jpg)
+
+   **You will see:** a form above the posts, with **Title**, **Enter a
+   message...** and a row of tags.
+
+2. Click **Title** and type what is wrong, in a few words.
+
+   - Good: *npm install fails with ENOENT on Windows*
+   - Good: *Servo motor not moving with Arduino Uno*
+   - Not helpful: *Please help*
+   - Not helpful: *It's not working*
+
+   **You will see:** the channel's **Post Guidelines** appear under the
+   form. Click **View All** to read them in full.
+
+   ![The Post Guidelines under the form](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/05-guidelines.jpg)
+
+---
+
+## Step 3: Write your message
+
+1. Click **Enter a message...**. Copy these lines, paste them in, and
+   fill in each one:
+
+   ```
+   I'm trying to:
+   What I did:
+   What happened instead:
+   What I already tried:
+   My setup:
+   ```
+
+   *My setup* means your computer and what you are using, like
+   *Windows 11, Node 22* or *Arduino Uno, Arduino IDE 2*.
+
+   To start a new line, hold <Key>Shift</Key> and press <Key>Enter</Key>.
+
+2. Paste your error or code **as text**, not as a photo of your screen.
+   Put three backticks on the line before it and on the line after it:
+
+   ````
+   ```
+   paste your error or code here
+   ```
+   ````
+
+   The backtick key is usually at the top left of a computer keyboard,
+   under <Key>Esc</Key>. On a phone, look in the symbols keyboard.
+
+   **You will see:** the text between the backticks change to a
+   typewriter-style font.
+
+   ![A message with an error between three backticks](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/03-title-and-message.jpg)
+
+   Use a screenshot only for things you can see, like a page that looks
+   wrong. Add it with the picture button at the top right of the form.
+
+> [!WARNING]
+> **Remove passwords, API keys and tokens first,** and anything from a
+> `.env` file. Everyone in the server can read your post. Posted one by
+> mistake? Change that password or key right away, then edit your post.
+
+Here is a full example:
+
+````
+I'm trying to: run my first React app.
+What I did: I ran npm install in my project folder.
+What happened instead:
+```
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path C:\Users\Ama\my-app\package.json
+```
+What I already tried: I searched the error. ChatGPT said to reinstall Node, so I did, but I get the same error.
+My setup: Windows 11, Node 22.
+````
+
+---
+
+## Step 4: Pick a tag and post
+
+1. In the row of tags, click the one for your topic, like **Software**
+   or **Data & AI**. New to coding? Click **Beginner** too. Not sure
+   which fits? Click **General**.
+
+   Do not pick **✅ Solved** yet. That comes at the end.
+
+   ![The tags, with General picked, and the Post button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/04-tag-and-post.jpg)
+
+2. Click <Button>Post</Button> at the bottom right of the form.
+
+   **You will see:** your post open on the right, with your name and an
+   **OP** label next to it. OP means *original poster*: the person who
+   asked.
+
+   ![Your post open on the right, with the error in a grey box](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/06-your-post.jpg)
+
+---
+
+## Step 5: While you wait
+
+- Someone will reply when they can. Replies show up inside your post.
+- To find your post again, look under <Channel>ask-for-help</Channel> in
+  the channel list on the left.
+- If someone asks you something, answer in your post.
+- Keep it in one place. Don't post the same question in other channels,
+  and don't message people privately unless they offer.
+- No answer after a day? Reply in your post with anything new you have
+  tried. That moves it back to the top.
+
+---
+
+## Step 6: Mark it solved
+
+1. Reply in your post with what fixed it. One line is enough.
+2. Click **⋯** at the top right of your post, then **Edit Tags**. Scroll
+   down the list of tags and tick **✅ Solved**.
+
+   ![The ⋯ menu, with Edit Tags open and Solved ticked](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/07-edit-tags-solved.jpg)
+
+   **You will see:** **✅ Solved** under your post's title.
+
+   ![Solved under the post's title](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/08-solved-tag.jpg)
+
+3. Thank whoever helped.
+
+**You are done.** The next person with the same problem will find your
+answer.
+
+---
+
+## Next, if you like: help someone else
+
+Open a post in <Channel>ask-for-help</Channel> that you know something
+about, and reply.
+
+- Explain why, not just the fix.
+- Be kind. Never make fun of a question.
+- Found the answer with an AI tool? Check that it works before you post
+  it.
