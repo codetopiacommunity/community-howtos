@@ -1,295 +1,126 @@
 ---
 title: Your first pull request, in your browser
-description: Practise GitHub. Add a small file about yourself to our practice project, in your browser, step by step.
+description: Add a short file about yourself to our practice project on GitHub, step by step, in your browser.
 ---
 
 # Your first pull request, in your browser
 
-In this guide you add one small file about yourself to our practice
-project on GitHub, and someone from our team accepts it. It is the same
-thing developers do every day, and it is how you take part in open
-source projects.
+You will add a short file about yourself to our practice project on
+GitHub, and we will accept it. About **15 minutes**. You cannot break
+anything: the project is made for practice.
 
-- **Time:** about fifteen minutes, then a wait while we look at it.
-- **What you need:** a computer or laptop, and an internet connection.
-  Nothing to install. You do everything in your web browser (Chrome,
-  Firefox, Safari, Edge or similar).
-- **You cannot break anything.** It is a practice project, made for
-  this.
-
-> [!TIP]
-> **This guide is long, on purpose.** We wrote down every click and
-> every screen, so you never have to guess. Most steps take less than a
-> minute. Take your time. Slow is fine.
-
-**We are a community of learners.** Everyone here started as a
-beginner, and not knowing something is simply where learning starts.
-If you get stuck, ask in <Channel>ask-for-help</Channel>: your question
-helps the next person who gets stuck in the same place. And once you
-have done this, you can help the next beginner too.
-
-> [!NOTE]
-> **On a phone?** It works, but a computer is easier. On a small screen
-> a few buttons are in different places: see
-> [On a small screen](#on-a-small-screen) before you start.
+Take your time. Everyone here started as a beginner. Stuck at any point?
+Ask in <Channel>ask-for-help</Channel>.
 
 ---
 
-## How to use this guide
+## Before you start
 
-- **Do one step at a time.** Each step ends with *You will know it
-  worked when...*. Check that before you move on.
-- **Keep this guide open.** Links to GitHub open in a new browser tab.
-  Switch between the tabs at the top of your browser: this guide in
-  one, GitHub in the other.
-- **The pictures** show a test account called *cerebrocerberus*. You
-  will see your own name in those places. The red boxes show what to
-  click.
+1. Open <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com</a>
+   (it opens in a new tab). Look at the **top right corner**.
 
----
+   👀 **If you see Sign in and Sign up**, you need to sign in:
 
-## Words you will see
+   ![The top right corner when you are not signed in: Sign in and Sign up](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/01-signed-out.jpg)
 
-You do not need to remember these. Come back here when a word is new.
+   Click <Button>Sign in</Button>. Type your GitHub username or email,
+   then your password, and click the green <Button>Sign in</Button>.
+   No account yet? On that page, click **Create an account**.
 
-| Word | What it means |
-|---|---|
-| **GitHub** | A website where people keep projects and work on them together. |
-| **Repository** (repo) | A project on GitHub: a set of folders and files. |
-| **Folder** | A group of files, like a folder on your computer. |
-| **File** | One document inside the project. Yours will be a short text file. |
-| **`.md`** | The end of a file name for a simple text file. *md* stands for Markdown, a way of writing text with headings and lists. |
-| **Fork** | Your own copy of someone else's project, on your GitHub account. Changing it cannot change the original. |
-| **Commit** | A saved change, with a short note saying what you changed. |
-| **Branch** | One line of saved changes in a project. Every project has a main one, called **main**. You will only use **main**. |
-| **Pull request** | A message to the project's owners: "here is my change, please take it into your project." |
-| **Review** | When someone from the project looks at your pull request. |
-| **Merge** | When they accept your pull request, so your change becomes part of their project. |
+   ![The Sign in to GitHub page](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/03-sign-in-page.jpg)
 
-**The plan in one sentence:** you make your own copy of our project, add
-your file to your copy, then ask us to take it into ours.
+   👀 **If you see a small circle**, you are already signed in. The circle
+   is your profile picture (a coloured pattern if you never added a
+   photo).
+
+   ![The top right corner when you are signed in: a small circle](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/02-signed-in.jpg)
+
+2. Click the **small circle**.
+
+   👀 A menu opens. Your **username** is at the very top. Write it down
+   exactly, with the same letters and dashes. Then click anywhere else
+   to close the menu.
+
+   ![The menu, with your username at the top](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/04-username.jpg)
 
 ---
 
-## Before you start: your GitHub account
-
-There are three short parts here: **A**, **B** and **C**. Do them in
-order.
-
-### A. Have a GitHub account
-
-**If you do not have a GitHub account yet, or you are not sure:**
-create one now. It is free.
-
-<a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">Create a GitHub account</a>
-
-GitHub asks you its questions one screen at a time. Answer them and
-follow what the screen says. Two tips:
-
-- Use an **email address you can open right now**. GitHub sends you an
-  email to check that it is yours.
-- Choose a **username** you are happy for others to see. It shows next
-  to everything you do on GitHub.
-
-Stuck while creating your account? Ask in <Channel>ask-for-help</Channel>.
-
-**If you already have a GitHub account:** you have nothing to do here.
-Go on to part B.
-
-### B. Sign in to GitHub
-
-1. Open <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com</a>.
-   It opens in a new tab.
-2. Look at the **top right corner** of the page. You will see one of two
-   things. Find the one that matches your screen.
-
-**What you might see: two buttons with the words Sign in and Sign up.**
-
-![The top right corner of GitHub when you are not signed in, with the Sign in and Sign up buttons](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/00a-signed-out.jpg)
-
-This means you are **not signed in yet**. Do this:
-
-1. Click <Button>Sign in</Button>.
-2. A page called **Sign in to GitHub** opens.
-3. Click inside the **Username or email address** box. Type the
-   username or the email address you used when you created your GitHub
-   account.
-4. Click inside the **Password** box. Type your GitHub password.
-5. Click the green <Button>Sign in</Button> button.
-
-![The Sign in to GitHub page, with the two boxes and the Sign in button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/00c-sign-in-page.jpg)
-
-6. If GitHub then asks you for a code, it has sent one to you. Look in
-   your email (or your text messages), type the code in, and continue.
-7. Look at the top right corner again. It now looks like the next
-   picture.
-
-Forgot your password? On the **Sign in to GitHub** page, click
-**Forgot password?** and follow the steps.
-
-**What you might see: a small circle at the far right, and no Sign in
-button.**
-
-![The top right corner of GitHub when you are signed in, with your profile picture circle at the far right](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/00b-signed-in.jpg)
-
-This means you **are already signed in**. You have nothing to do here.
-
-The circle is your **profile picture**. If you never added a photo,
-it shows a coloured pattern that GitHub made for you, like the one in
-the picture.
-
-**You will know part B worked when** the top right corner shows the
-small circle, and there is no **Sign in** button.
-
-### C. Find your username
-
-1. Click your **profile picture**: the small circle at the top right.
-2. A menu opens. Your **username** is the name at the very top of it.
-
-![The menu under your profile picture, with the username at the top](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/01-username.jpg)
-
-3. Write it down exactly as it is: the same small and capital letters,
-   and any dashes (`-`). You need it in Step 3.
-4. Close the menu: click anywhere else on the page.
-
-**You will know part C worked when** you have your username written
-down.
-
----
-
-## Step 1: Make your own copy (fork)
-
-You cannot add files to our project directly. Instead, you make your
-own copy of it on your account, called a **fork**, and add your file
-there. You only ever need one copy.
+## Step 1: Make your own copy
 
 1. Open our practice project:
    <a href="https://github.com/codetopiacommunity/open-source-practice" target="_blank" rel="noopener noreferrer">open-source-practice</a>.
-   At the top left it says **codetopiacommunity / open-source-practice**.
-2. At the top right, find the button with the word **Fork** and a
-   number. Click the word <Button>Fork</Button> itself, not the small
-   arrow next to it.
+2. At the top right, click the word <Button>Fork</Button>. A fork is
+   your own copy of the project.
 
-   ![The practice project, with the Fork button at the top right](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/02-fork-button.jpg)
+   ![Our practice project, with the Fork button at the top right](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/05-fork.jpg)
 
-3. A page called **Create a new fork** opens. Your username is already
-   in the **Owner** box, and **open-source-practice** in the
-   **Repository name** box. **Do not change anything.** Click the green
-   <Button>Create fork</Button> button at the bottom right.
+   👀 A page called **Create a new fork**.
 
-   ![The Create a new fork page, with the Create fork button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/03-create-fork.jpg)
+3. Change nothing. Click the green <Button>Create fork</Button> button.
 
-4. You see *Forking codetopiacommunity/open-source-practice. It should
-   only take a few seconds.* Wait. The page changes on its own.
+   ![The Create a new fork page, with the Create fork button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/06-create-fork.jpg)
 
-   ![The Forking message, with It should only take a few seconds](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/26-forking-wait.jpg)
+   👀 *Forking...* for a few seconds, then **your copy**. Under the big
+   title it says ***forked from codetopiacommunity/open-source-practice***.
+   That line is how you always know you are in your copy.
 
-**You will know it worked when** you see the words *forked from
-codetopiacommunity/open-source-practice* under the big title
-**open-source-practice**. On a computer, the top left of the page also
-shows **your username / open-source-practice**. This is **your copy**.
+   ![Your copy, with forked from codetopiacommunity/open-source-practice under the title](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/07-your-copy.jpg)
 
-![Your copy, with your username at the top left and "forked from" under the title](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/04-your-copy.jpg)
-
-### Two projects with the same name
-
-There are now two projects called **open-source-practice**: ours, and
-your copy. They look almost the same. Here is how to tell them apart.
-
-**Ours** is the one you started from. Under the big title
-**open-source-practice**, nothing is written.
-
-![Our project: the title open-source-practice, with nothing written under it](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/22-ours.jpg)
-
-**Yours** is the copy you just made. Under the big title, it says
-*forked from codetopiacommunity/open-source-practice*.
-
-![Your copy: the title open-source-practice, with "forked from codetopiacommunity/open-source-practice" under it](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/23-yours.jpg)
-
-**Steps 2, 3 and 4 all happen in your copy.** You are in your copy
-right now, so you can go straight on to Step 2.
-
-### How to find your copy again
-
-If you close the tab, or end up on another page, this is how you get
-back to your copy:
-
-1. Click your **profile picture** (the small circle at the top right of
-   any GitHub page).
-2. A menu opens. Click **Repositories**.
-
-   ![The profile picture menu, with Repositories](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/24-repositories-menu.jpg)
-
-3. A list of your projects opens. Click **open-source-practice**. Under
-   its name it says *Forked from codetopiacommunity/open-source-practice*.
-
-   ![Your list of projects, with your copy of open-source-practice](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/25-repositories-list.jpg)
-
-4. Your copy opens.
-
-   ![Your copy, with forked from codetopiacommunity/open-source-practice under the title](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/23-yours.jpg)
-
-**You will know it worked when** you see *forked from
-codetopiacommunity/open-source-practice* under the big title.
+> [!WARNING]
+> **Do you see "No available destinations to fork this repository"?**
+> You already made a copy before. Click the link under that message:
+> it opens your copy. Then go on to Step 2.
+>
+> ![The message No available destinations to fork this repository, with the link to your copy](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/08-already-have-a-copy.jpg)
 
 ---
 
-## Step 2: Open the contributors folder
+## Step 2: Create your file
 
-1. In your copy, you see a list of folders and files. Click the folder
-   called **contributors** (it has a small folder icon).
+1. In your copy, click the **contributors** folder.
 
-   ![The list of folders and files in your copy, with the contributors folder](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/27-click-contributors.jpg)
-2. The folder opens. You see a file called `README.md`, and one file for
-   every person who has done this before you.
-3. At the top right, click <Button>Add file</Button>. A small menu opens
-   with **Create new file** and **Upload files**.
+   ![Your copy, with the contributors folder](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/09-contributors.jpg)
 
-   ![The contributors folder in your copy, with the Add file button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/05-add-file.jpg)
+2. At the top right, click <Button>Add file</Button>, then
+   <Button>Create new file</Button>.
 
-   On a small screen there is no **Add file** button. Tap the **⋯**
-   button at the top right instead (see
-   [On a small screen](#on-a-small-screen)).
+   ![The Add file button, and Create new file in its menu](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/10-add-file.jpg)
 
-4. Click <Button>Create new file</Button>.
+   **On a phone**, there is no Add file button. Tap **⋯** at the top
+   right, then <Button>Create new file</Button>. Do not tap the red
+   **Delete directory**.
 
-   ![The Add file menu, with Create new file](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/06-create-new-file.jpg)
+   ![On a phone: the ⋯ menu with Create new file at the top](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/11-phone-menu.jpg)
 
-**You will know it worked when** you see a page with a small box that
-says **Name your file...** at the top, and a big empty box below it
-that says **Enter file contents here**.
+   👀 A small box that says **Name your file...**, and a big empty box
+   below it.
 
-![The new file page, with the Name your file box and the Enter file contents here box](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/28-empty-editor.jpg)
+   ![The new file page, with the Name your file box and the big empty box](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/12-new-file-page.jpg)
+
+> [!WARNING]
+> **Do you see "You need to fork this repository to propose changes"?**
+> You are in our project, not your copy: the top left says
+> **codetopiacommunity**. Do not click the green button on that page.
+> Go to your copy instead: click the **small circle** at the top right,
+> then **Repositories**, then **open-source-practice**. Then do Step 2
+> again.
+>
+> ![The page that says You need to fork this repository, with codetopiacommunity at the top left](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/13-wrong-place.jpg)
 
 ---
 
-## Step 3: Write your file
+## Step 3: Write about yourself
 
-### Name it
-
-1. Click inside the small **Name your file...** box.
-2. Type your **username**, then `.md`, with no spaces. If your username
-   is *kofi-mensah*, type:
+1. Click inside the **Name your file...** box. Type your username, then
+   `.md` (a dot and the letters m and d), with no spaces. For example:
 
    ```
    kofi-mensah.md
    ```
 
-   ![The Name your file box with the file name typed in](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/29-name-box.jpg)
-
-> [!IMPORTANT]
-> Use your GitHub username, not your real name. Two people can have
-> the same name, but never the same username.
-
-### Write in it
-
-1. Copy the text in the grey box below. On a computer, move your mouse
-   over the grey box: a small **copy button** (two little squares)
-   appears at its top right, next to the word **PLAINTEXT**. On a phone,
-   the button is always there. Click it. It turns into a tick ✓: the
-   text is copied.
-
-   ![The grey box with the mouse over it, and the copy button at its top right](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/36-copy-button.jpg)
+2. Copy these lines. On a computer, move your mouse over the grey box:
+   a small **copy button** appears at its top right. Click it. On a
+   phone, the copy button is always there.
 
    ```
    # Your Name
@@ -299,285 +130,112 @@ that says **Enter file contents here**.
    - Fun fact: one thing about you
    ```
 
-2. Go back to GitHub. Click inside the big box that says **Enter file
-   contents here**.
-3. Paste: press <Key>Ctrl</Key> and <Key>V</Key> together. On a Mac,
-   press <Key>Cmd</Key> and <Key>V</Key>. Or right-click inside the box
-   and choose **Paste**.
-4. Now change the words to your own. Replace *Your Name*, *Your city,
-   your country*, *what you are learning* and *one thing about you*.
-   Leave everything else exactly as it is:
-   - Keep the `#` and the space after it at the start of the first
-     line. It makes your name a heading.
-   - Keep the `-` and the space after it at the start of the other
-     lines. They make a list.
+   ![The grey box with the copy button at its top right](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/14-copy-button.jpg)
 
-For example, Ama from Kumasi would end up with:
+3. Click inside the big box on GitHub and paste: press <Key>Ctrl</Key>
+   and <Key>V</Key> together (<Key>Cmd</Key> and <Key>V</Key> on a
+   Mac), or right-click and choose **Paste**. On a phone, press and hold
+   inside the box, then tap **Paste**.
 
-```
-# Ama Owusu
+4. Change the words to your own. Keep the `#` and the `-` at the start
+   of the lines. For example:
 
-- From: Kumasi, Ghana
-- Learning right now: HTML and CSS
-- Fun fact: I can solve a Rubik's cube
-```
+   ```
+   # Ama Owusu
 
-> [!TIP]
-> If you press <Key>Enter</Key> at the end of a line that starts with
-> `-`, GitHub starts a new line with a `-` for you. If you see an extra
-> `-` on its own line at the end, delete it.
+   - From: Kumasi, Ghana
+   - Learning right now: HTML and CSS
+   - Fun fact: I can solve a Rubik's cube
+   ```
 
-![The new file, with the name box filled in and the text written, and the Commit changes button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/07-name-and-write.jpg)
+   👀 Your file name in the small box, and your lines in the big box.
 
-**You will know it worked when** the name box shows your username
-ending in `.md`, and the big box shows your own five lines (numbered 1
-to 5 on the left).
+   ![The file name and your lines on GitHub](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/15-your-lines.jpg)
+
+   If a line with only a `-` appears at the end, delete it.
 
 ---
 
-## Step 4: Save it (commit)
-
-There are two green buttons with almost the same name. The first one
-(with three dots) opens a box. The second one (without dots) saves.
+## Step 4: Save it
 
 1. Click the green <Button>Commit changes...</Button> button at the top
-   right of the page. A box called **Commit changes** opens in the
-   middle of the page.
-2. The **Commit message** box already has some text, like *Create
-   kofi-mensah.md*. Replace it with a short note of what you did:
-   - Click inside the box.
-   - Press <Key>Ctrl</Key> and <Key>A</Key> together (<Key>Cmd</Key>
-     and <Key>A</Key> on a Mac) to select the old text.
-   - Type `Add kofi-mensah to contributors`, with your own username.
-3. Leave **Extended description** empty.
-4. Leave **Commit directly to the main branch** selected. It only
-   changes **your copy**, so it is safe.
-5. Click the green <Button>Commit changes</Button> button at the bottom
-   right of the box.
+   right. Commit means save.
 
-![The Commit changes box, with the Commit message box and the Commit changes button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/08-commit-dialog.jpg)
+   👀 A box opens in the middle of the page.
 
-**You will know it worked when** you are back in the contributors folder
-and your file is in the list. Near the top, GitHub says *This branch is
-1 commit ahead of codetopiacommunity/open-source-practice:main*. That
-means: your copy has one change that our project does not have yet.
+2. Click the green <Button>Commit changes</Button> button at the bottom
+   of that box. You can leave everything else as it is.
 
-![Your file in the list, and the words 1 commit ahead near the top](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/30-one-commit-ahead.jpg)
+   ![The Commit changes button at the top, and the Commit changes button in the box](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/16-commit-box.jpg)
+
+   👀 Your file is in the list, and near the top it says *This branch
+   is **1 commit ahead** of codetopiacommunity/open-source-practice:main*.
+
+   ![Your file in the list, and 1 commit ahead near the top](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/17-one-commit-ahead.jpg)
+
+> [!WARNING]
+> **Do you see "A file with the same name already exists"?** You added
+> your file before. Click **Cancel**, then click **contributors** at the
+> top of the page, and go on to Step 5.
 
 ---
 
-## Step 5: Ask us to take it (pull request)
+## Step 5: Ask us to take it
 
-1. On the same line as *1 commit ahead*, click the
-   <Button>Contribute</Button> button. A box opens.
-2. In the box, click the green <Button>Open pull request</Button>
+1. On the line that says *1 commit ahead*, click
+   <Button>Contribute</Button>, then the green
+   <Button>Open pull request</Button>. A pull request asks us to take
+   your change into our project.
+
+   ![The Contribute button, and Open pull request](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/18-contribute.jpg)
+
+   👀 A page called **Comparing changes**, with **Able to merge** in
+   green.
+
+2. Change nothing. Click the green <Button>Create pull request</Button>
    button.
 
-   ![The Contribute box, with the Open pull request button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/09-contribute.jpg)
+   ![Able to merge, and the Create pull request button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/19-create-pull-request.jpg)
 
-3. A page called **Comparing changes** opens. You do not need to change
-   anything on it:
-   - The grey row at the top shows from where to where: from your copy
-     to ours. Leave it.
-   - It says **Able to merge** with a green tick. Good.
-   - **Add a title** is already filled in from your commit message.
-   - **Add a description** is optional. You can leave it empty, or write
-     a line like *My first pull request!*
+   👀 A green **Open** label at the top. That is your pull request.
 
-   ![The Comparing changes page, with Able to merge and the title already filled in](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/37-comparing-changes.jpg)
-4. Click the green <Button>Create pull request</Button> button under
-   the description. Click the words, not the small arrow next to them.
-
-   ![The pull request page, with the Create pull request button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/10-create-pull-request.jpg)
-
----
+   ![Your pull request, with the green Open label](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/20-open.jpg)
 
 <DoneWhen>
 
-You see a page with your title at the top and a green **Open** label
-under it, and it says *your username wants to merge 1 commit into
-codetopiacommunity:main*. That is your pull request. Well done.
+🎉 **You did it.** You made your first pull request. There is nothing
+else you need to do right now.
 
 </DoneWhen>
-
-![Your pull request, with the green Open label](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/11-pull-request-open.jpg)
-
-You do not need to post it anywhere: we can see it on GitHub.
-
-**Your pull request's link** is the web address of this page. To copy
-it: click the **address bar** at the very top of your browser (where the
-address starting with `https://github.com/` is), then press
-<Key>Ctrl</Key> and <Key>C</Key> together (<Key>Cmd</Key> and
-<Key>C</Key> on a Mac). You only need it if you ask for help.
 
 ---
 
 ## What happens next
 
-Someone from our Projects & Tech team looks at your pull request. You do
-not need to do anything while you wait.
+Someone from our team looks at your pull request. When they do, GitHub
+sends you an email, and a **blue dot** appears on the **inbox icon** at
+the top right of GitHub. Click it to see what happened.
 
-Each time they do something, GitHub sends you an email, and the
-**inbox icon** at the top right of GitHub gets a small blue dot. Click
-the inbox icon, then click the line about your pull request to open it.
+![The inbox icon with a blue dot, and the notification](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/21-notification.jpg)
 
-![The inbox icon with a blue dot, and the notification about the pull request](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/13-notification.jpg)
+**A purple Merged label** means we accepted it. Your file is now in our
+project. Share it in <Channel>wins-and-milestones</Channel>!
 
-**To find your pull request again** at any time: click the **pull
-request icon** at the top right of any GitHub page (two dots joined by
-lines). Your pull request is listed there.
+![Your pull request with the purple Merged label](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/22-merged.jpg)
 
-![The pull request icon at the top right, and the pull request in the list](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/12-find-your-pull-request.jpg)
+**If we ask for a change**, that is normal. Go to your copy (the small
+circle, then **Repositories**, then **open-source-practice**), click
+**contributors**, then your file. Click the **pencil** at the top right
+of your file.
 
-There are two things that can happen.
+![Your file, with the pencil at the top right](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/23-pencil.jpg)
 
-### If they ask for a change
+Make the change, then click <Button>Commit changes...</Button> and
+<Button>Commit changes</Button> again, as in Step 4. Your change joins
+the same pull request on its own.
 
-That is normal, and not a mistake. It happens to experienced developers
-every day. On your pull request page you see **requested changes** next
-to a red icon, and under it their comment saying what to change.
+![Your file open for editing, with the Commit changes button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr-v2/24-edit-and-save.jpg)
 
-![A review asking for a change, with the red requested changes icon](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/14-changes-requested.jpg)
-
-To make the change:
-
-1. Go to **your copy** (see
-   [How to find your copy again](#how-to-find-your-copy-again)).
-2. Click the **contributors** folder, then click **your file** (the one
-   with your username).
-
-   ![The contributors folder in your copy, with your file in the list](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/30-one-commit-ahead.jpg)
-3. Your file opens. Click the **pencil icon** at the top right of it.
-
-   ![Your file in your copy, with the pencil icon](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/15-edit-your-file.jpg)
-
-4. Your text appears in the big box again. Make the change they asked
-   for.
-
-   ![Your text in the big box again, with the Commit changes button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/31-edit-your-text.jpg)
-5. Click the green <Button>Commit changes...</Button> button at the top
-   right, then the green <Button>Commit changes</Button> button in the
-   box. You can keep the commit message GitHub suggests.
-
-That is all. You do **not** open a new pull request: your change is
-added to the same one on its own. On your pull request page, your new
-commit appears under their comment, and it now says *wants to merge 2
-commits*.
-
-![The pull request with the new commit added under the review](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/16-change-joined.jpg)
-
-### When it is accepted (merged)
-
-The green **Open** label turns into a purple **Merged** label, and the
-page says **Pull request successfully merged and closed**.
-
-![The pull request with the purple Merged label](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/17-merged.jpg)
-
-Your file is now in
-<a href="https://github.com/codetopiacommunity/open-source-practice/tree/main/contributors" target="_blank" rel="noopener noreferrer">our contributors folder</a>,
-next to everyone else's. You made your first pull request. Tell us in
-<Channel>wins-and-milestones</Channel>!
-
-**Nobody has replied after three days?** Ask in
-<Channel>ask-for-help</Channel> and paste your pull request's link.
-
----
-
-## Coming back later
-
-If you come back to your copy another day, it may say *This branch is
-1 commit behind codetopiacommunity/open-source-practice:main* (or more
-than 1). That means our project has changes your copy does not have yet.
-It is normal. To bring your copy up to date:
-
-1. Click the <Button>Sync fork</Button> button on the same line.
-
-   ![Your copy saying it is behind, with the Sync fork button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/18-copy-behind.jpg)
-
-2. A box says **This branch is out-of-date**. Click the green
-   <Button>Update branch</Button> button.
-
-   ![The Sync fork box, with the Update branch button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/19-update-branch.jpg)
-
-**You will know it worked when** it says *This branch is up to date
-with codetopiacommunity/open-source-practice:main*.
-
-![Your copy saying This branch is up to date](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/32-up-to-date.jpg)
-
----
-
-## On a small screen
-
-We checked these steps in a narrow browser window, the size of a phone.
-Three things are different from the pictures above. Everything else
-works the same.
-
-- **The top left does not show whose project it is.** It shows
-  **··· / open-source-practice**. To tell your copy from ours, look
-  under the big title: your copy says *forked from
-  codetopiacommunity/open-source-practice*.
-
-  ![A small screen: the top shows ··· / open-source-practice, and forked from is under the title](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/33-small-screen-top.jpg)
-
-- **There is no Add file button.** In the contributors folder, tap the
-  **⋯** button at the top right. The menu that opens has
-  <Button>Create new file</Button> at the top. Tap that.
-- **Do not tap Delete directory** in that menu (it is in red). It would
-  try to delete the whole folder.
-
-![The ⋯ menu on a small screen, with Create new file at the top](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/20-small-screen-menu.jpg)
-
----
-
-## Stuck?
-
-- **There is no Fork or Add file button.** You are probably not signed
-  in: if the top right shows **Sign in**, follow part B of *Before you
-  start*. On a small screen, see also *On a small screen*.
-- **GitHub says "You need to fork this repository to propose
-  changes".** You are in our project, not your copy: the page does not
-  say *forked from* under the title. Go to your copy (see
-  [How to find your copy again](#how-to-find-your-copy-again)) and do
-  the step there. **Do not click the green Fork this repository button
-  on that page**: it does not work there.
-
-  ![The page that says You need to fork this repository to propose changes](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/34-you-need-to-fork.jpg)
-- **GitHub says "A file with the same name already exists".** You
-  already added your file earlier. Click **Cancel** to close the box,
-  then click **contributors** in the path at the top of the page (if
-  your browser asks whether to leave the page, choose to leave). Your
-  file is in the list. If you have not opened a pull request for
-  it yet, carry on from Step 5.
-
-  ![The message A file with the same name already exists](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/35-file-exists.jpg)
-- **You clicked Fork and GitHub says "No available destinations to
-  fork this repository".** You already have a copy from before. Click
-  the link under that message (*your username/open-source-practice*):
-  that is your copy. Carry on from Step 2.
-
-  ![The fork page saying there are no available destinations, with a link to the existing copy](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Contributing/first-pr/21-already-have-a-copy.jpg)
-
-- **Your file shows** `# Your Name` **instead of your name.** You forgot
-  to replace the example words. Use the pencil icon (see *If they ask
-  for a change*) to fix it.
-- **Something looks different from the pictures.** GitHub changes its
-  pages from time to time. Ask in <Channel>ask-for-help</Channel>, and
-  tell us, so we can fix this guide.
-- **Anything else?** Ask in <Channel>ask-for-help</Channel>. Say which
-  step you are on, what you clicked, and what you see. A screenshot
-  helps.
-
----
-
-## You are done
-
-That is the whole guide. When your pull request shows **Merged**, there
-is nothing else you need to do. Well done!
-
-> [!TIP]
-> **Later, only if you want to.** Our open source onboarding course
-> teaches the same thing from your own computer, using a program called
-> the terminal. It is a separate course with its own lessons and its own
-> help. You do not need it now. Start it only when you feel ready.
->
-> <a href="https://github.com/codetopiacommunity/opensource-onboarding" target="_blank" rel="noopener noreferrer">Open source onboarding course</a>
+**Nobody has replied after 3 days?** Ask in
+<Channel>ask-for-help</Channel>, and paste the address of your pull
+request's page.
