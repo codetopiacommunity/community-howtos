@@ -6,7 +6,7 @@ Everyone contributing here follows the <a href="https://community.codetopia.org/
 
 > **New to GitHub?** You do not need to understand forks or branches to
 > help. Start with
-> [Your first pull request](https://community.codetopia.org/howtos/contributing/your-first-pull-request),
+> [Your first pull request, in your browser](https://community.codetopia.org/howtos/contributing/your-first-pull-request),
 > a ten-minute guide in your browser. Any unfamiliar word below is
 > explained in the onboarding course's
 > [glossary](https://github.com/codetopiacommunity/opensource-onboarding/blob/main/GLOSSARY.md).
@@ -25,7 +25,7 @@ Everyone contributing here follows the <a href="https://community.codetopia.org/
 
 Depending on what you want to change, you can contribute directly in your browser or locally:
 
-1. **Quick fixes (Browser):** For typos, broken links, or minor text updates, edit the file directly in your browser: open it on GitHub, click the pencil icon, make the change, then click **Commit changes...** and **Propose changes**, and open the pull request. GitHub makes your fork for you. New to pull requests? [Your first pull request](./Contributing/03-your-first-pull-request.mdx) walks you through one step by step.
+1. **Quick fixes (Browser):** For typos, broken links, or minor text updates, edit the file directly in your browser: open it on GitHub, click the pencil icon, make the change, then click **Commit changes...** and **Propose changes**, and open the pull request. GitHub makes your fork for you. New to pull requests? [Your first pull request, in your browser](./Contributing/03-your-first-pull-request.mdx) walks you through one step by step.
 2. **New guides or substantial additions:** For larger contributions, fork the repository, create a branch (`docs/your-topic`), and open a pull request. If you are not yet comfortable with GitHub, you can draft your guide in a Google Doc and post it in the `#general` channel on Discord where a member can help open the pull request for you.
 
 ---
