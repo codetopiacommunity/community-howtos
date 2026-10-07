@@ -31,8 +31,8 @@ for each topic.
 <Card title="Say hi">
 Introduce yourself in <Channel>introduce-yourself</Channel>.
 </Card>
-<Card title="Ask for help">
-Stuck on anything? Ask in <Channel>ask-for-help</Channel>.
+<Card title="Ask for help" href="/howtos/getting-started/getting-unstuck">
+Stuck on anything? Here is how to get help, from AI and from people in <Channel>ask-for-help</Channel>.
 </Card>
 <Card title="Come to an event" href="/howtos/getting-started/going-to-an-event">
 Live chats on X, meetups and conferences. Here is how to join one.
