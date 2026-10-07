@@ -1,6 +1,6 @@
 ---
 title: Ask a good question
-description: Ask in #ask-for-help so people can answer you fast, then mark your question solved.
+description: Post a question in #ask-for-help, about anything, so people can answer you fast. Then mark it solved.
 ---
 
 # Ask a good question
@@ -9,7 +9,9 @@ Stuck? Ask in <Channel>ask-for-help</Channel>. The people who answer are
 members like you, helping in their free time. A clear question gets an
 answer in minutes. A vague one takes hours of back and forth.
 
-No question is too basic. Everyone here started as a beginner.
+Ask about anything: design, data, hardware, writing, careers, code, or
+finding your way around Codetopia. No question is too basic. Everyone
+here started as a beginner.
 
 {/* TODO for maintainers: add phone screenshots for Steps 2, 4 and 6
     (New Post, the tags, and Edit Tags in the Discord phone app), and
@@ -19,16 +21,17 @@ No question is too basic. Everyone here started as a beginner.
 
 ## Step 1: Check if it's already answered
 
-1. Read your error message to the end. The last lines often say what
-   is wrong.
+1. If there is a message on your screen, read it to the end. It often
+   says what is wrong.
 2. Open <Channel>ask-for-help</Channel>. Click the box at the top that
    says **Search or create a post...** and type one word from your
-   problem, like *npm* or *GitHub*.
+   problem, like *Excel*, *Canva* or *portal*.
 
    **You will see:** only the posts that match your word. Click a title
-   to open that post.
+   to open that post. If nothing matches, you will see **No matching
+   posts**.
 
-   ![The search box with a word typed in, and the Shift + Enter hint at the right](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/02-search.jpg)
+   ![The search box with a word typed in, No matching posts and Clear under it, and the Shift + Enter hint](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/02-search.jpg)
 
 > [!WARNING]
 > Do not press <Key>Shift</Key> and <Key>Enter</Key> together in this
@@ -37,8 +40,8 @@ No question is too basic. Everyone here started as a beginner.
 3. Found your answer? You are done. Not there? Click **Clear** under the
    box and go on to Step 2.
 
-Asked an AI tool and it didn't help? That's fine. Keep what it told
-you: you will add it in Step 3.
+Asked an AI tool and it didn't help, or you're not sure it's right?
+That's fine. Keep what it told you: you will add it in Step 3.
 
 ---
 
@@ -53,7 +56,8 @@ you: you will add it in Step 3.
 
 2. Click **Title** and type what is wrong, in a few words.
 
-   - Good: *npm install fails with ENOENT on Windows*
+   - Good: *VLOOKUP shows #N/A even though the name is in my list*
+   - Good: *Can't download my Canva design as a PDF*
    - Good: *Servo motor not moving with Arduino Uno*
    - Not helpful: *Please help*
    - Not helpful: *It's not working*
@@ -74,22 +78,24 @@ you: you will add it in Step 3.
    I'm trying to:
    What I did:
    What happened instead:
-   What I already tried:
+   What I tried, including AI:
    My setup:
    ```
 
-   *My setup* means your computer and what you are using, like
-   *Windows 11, Node 22* or *Arduino Uno, Arduino IDE 2*.
+   *What I tried, including AI* means what you already tried, and what
+   any AI tool told you. *My setup* means what you are using, like
+   *Excel on Windows 11*, *Canva on my phone* or *Arduino Uno*.
 
    To start a new line, hold <Key>Shift</Key> and press <Key>Enter</Key>.
 
-2. Paste your error or code **as text**, not as a photo of your screen.
-   Type three backticks on the line before it, and three again on the
-   line after it:
+2. Got an error message, a formula or code? Paste it **as text**, not
+   as a photo of your screen, so people can copy it. Type three
+   backticks on the line before it, and three again on the line after
+   it:
 
    ````
    ```
-   paste your error or code here
+   paste it here
    ```
    ````
 
@@ -100,42 +106,42 @@ you: you will add it in Step 3.
    **You will see:** the text between the backticks change to a
    typewriter-style font.
 
-   ![A filled-in post, with the error between three backticks](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/03-title-and-message.jpg)
+   ![A filled-in post, with the formula between three backticks](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/03-title-and-message.jpg)
 
-   Use a screenshot only for things you can see, like a page that looks
-   wrong. Add it with the picture button at the top right of the form.
+   For things you can see, like a design, a page that looks wrong or
+   your wiring, add a picture. Use the picture button at the top right
+   of the form.
 
 > [!WARNING]
-> **Remove passwords, API keys and tokens first,** and anything from a
-> `.env` file. Everyone in the server can read your post. Posted one by
-> mistake? Change that password or key right away, then edit your post.
+> **Remove passwords, sign-in codes, keys and personal details first,**
+> in your text and in your pictures. Everyone in the server can read
+> your post. Posted one by mistake? Change it right away, then edit your
+> post.
 
 Here is a full example:
 
 ````
-I'm trying to: run my first React app.
-What I did: I ran npm install in my project folder.
-What happened instead:
+I'm trying to: show each student's score from my Scores sheet next to their name.
+What I did: I typed this formula in B2 and copied it down:
 ```
-npm ERR! code ENOENT
-npm ERR! syscall open
-npm ERR! path C:\Users\Ama\my-app\package.json
+=VLOOKUP(A2, Scores!A:B, 2, FALSE)
 ```
-What I already tried: I searched the error. ChatGPT said to reinstall Node, so I did, but I get the same error.
-My setup: Windows 11, Node 22.
+What happened instead: every cell shows #N/A, even for Ama Mensah, who is on both sheets.
+What I tried, including AI: I checked the spelling. ChatGPT said to add FALSE at the end. I already had it, and it still shows #N/A.
+My setup: Excel (Microsoft 365) on Windows 11.
 ````
 
 ---
 
 ## Step 4: Pick a tag and post
 
-1. In the row of tags, click the one for your topic, like **Software**
-   or **Data & AI**. New to coding? Click **Beginner** too. Not sure
-   which fits? Click **General**.
+1. In the row of tags, click the one closest to your topic, like
+   **Data & AI** or **Design & UX**. New to this? Click **Beginner** too.
+   Not sure which fits? Click **General**.
 
    Do not pick **✅ Solved** yet. That comes at the end.
 
-   ![The tags, with Software and Beginner picked, and the Post button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/04-tag-and-post.jpg)
+   ![The tags, with Data & AI and Beginner picked, and the Post button](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/04-tag-and-post.jpg)
 
 2. Click <Button>Post</Button> at the bottom right of the form.
 
@@ -143,7 +149,7 @@ My setup: Windows 11, Node 22.
    **OP** label next to it. OP means *original poster*: the person who
    asked.
 
-   ![Your post open on the right, with the error in a grey box](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/06-your-post.jpg)
+   ![Your post open on the right, with the formula in a grey box](https://raw.githubusercontent.com/codetopiacommunity/community-howtos/main/images/Getting-Started/ask-a-good-question/06-your-post.jpg)
 
 ---
 
@@ -184,7 +190,7 @@ answer.
 Open a post in <Channel>ask-for-help</Channel> that you know something
 about, and reply.
 
-- Explain why, not just the fix.
-- Be kind. Never make fun of a question.
-- Found the answer with an AI tool? Check that it works before you post
-  it.
+- Answer in your own words. If AI helped you, check it first, and say
+  so.
+- Explain why, not just the answer. A hint often helps more.
+- Never reply *"just ask ChatGPT"*, and never make fun of a question.
