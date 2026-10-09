@@ -38,7 +38,7 @@ Stuck on anything tech? Here is how to get help, from AI and from people in <Cha
 Live chats on X, meetups and conferences. Here is how to join one.
 </Card>
 <Card title="Help out" href="/howtos/contributing/help-out">
-See what the teams need right now in <Channel>get-involved</Channel>.
+See what the teams need right now in <Channel>get-involved</Channel>. If you code, find tasks in <Channel>github-help-wanted</Channel>.
 </Card>
 </Cards>
 
@@ -47,7 +47,7 @@ It comes from **Vector**, our community bot.
 
 ## Want to do more?
 
-Want to join a team, or have something to offer, like code reviews or
+Want to join a team, or have something to offer, like design skills or
 a project idea? Post in <Channel>get-involved</Channel> with
 the team's tag and a line about yourself, or message the team's lead
 privately. The leads are pinned at the top of <Channel>get-involved</Channel>.
