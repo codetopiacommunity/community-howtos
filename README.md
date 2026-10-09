@@ -28,8 +28,8 @@ On Discord, names that start with `#` are **channels**: chat rooms, one
 for each topic.
 
 <Cards>
-<Card title="Say hi">
-Introduce yourself in <Channel>introduce-yourself</Channel>.
+<Card title="Say hi" href="/howtos/getting-started/your-first-week">
+Introduce yourself in <Channel>introduce-yourself</Channel>, and find your way around in your first week.
 </Card>
 <Card title="Ask for help" href="/howtos/getting-started/getting-unstuck">
 Stuck on anything tech? Here is how to get help, from AI and from people in <Channel>ask-for-help</Channel>.
