@@ -28,16 +28,16 @@ On Discord, names that start with `#` are **channels**: chat rooms, one
 for each topic.
 
 <Cards>
-<Card title="Say hi" href="/howtos/getting-started/your-first-week">
-Introduce yourself in <Channel>introduce-yourself</Channel>, and find your way around in your first week.
+<Card title="Say hi in your first week" icon="hello" href="/howtos/getting-started/your-first-week">
+Introduce yourself in <Channel>introduce-yourself</Channel>, and find your way around.
 </Card>
-<Card title="Ask for help" href="/howtos/getting-started/getting-unstuck">
+<Card title="Ask for help, from AI and people" icon="help" href="/howtos/getting-started/getting-unstuck">
 Stuck on anything tech? Here is how to get help, from AI and from people in <Channel>ask-for-help</Channel>.
 </Card>
-<Card title="Come to an event" href="/howtos/getting-started/going-to-an-event">
+<Card title="Come to an event" icon="event" href="/howtos/getting-started/going-to-an-event">
 Live chats on X, meetups and conferences. Here is how to join one.
 </Card>
-<Card title="Help out" href="/howtos/contributing/help-out">
+<Card title="Help out" icon="help-out" href="/howtos/contributing/help-out">
 See what the teams need right now in <Channel>get-involved</Channel>. If you code, find tasks in <Channel>github-help-wanted</Channel>.
 </Card>
 </Cards>
@@ -48,11 +48,13 @@ It comes from **Vector**, our community bot.
 ## Want to do more?
 
 Want to join a team, or have something to offer, like design skills or
-a project idea? Post in <Channel>get-involved</Channel> with
-the team's tag and a line about yourself, or message the team's lead
-privately. The leads are pinned at the top of <Channel>get-involved</Channel>.
-[Ways to contribute](https://community.codetopia.org/howtos/contributing/ways-to-contribute) explains
-the teams.
+a project idea? Post in <Channel>get-involved</Channel> with the team's
+tag and a line about yourself.
+
+You can also message a team's lead privately. The leads are pinned at
+the top of <Channel>get-involved</Channel>.
+[Ways to contribute](https://community.codetopia.org/howtos/contributing/ways-to-contribute)
+explains the teams.
 
 Questions? The [FAQ](https://community.codetopia.org/howtos/getting-started/faq) answers the common
 ones. If someone ever makes you uncomfortable, see
