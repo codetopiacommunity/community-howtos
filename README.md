@@ -51,8 +51,8 @@ Want to join a team, or have something to offer, like design skills or
 a project idea? Post in <Channel>get-involved</Channel> with the team's
 tag and a line about yourself.
 
-You can also message a team's lead privately. The leads are pinned at
-the top of <Channel>get-involved</Channel>.
+No reply after two days? Then message the team's lead. The leads are
+pinned at the top of <Channel>get-involved</Channel>.
 [Ways to contribute](https://community.codetopia.org/howtos/contributing/ways-to-contribute)
 explains the teams.
 
