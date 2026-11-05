@@ -15,8 +15,8 @@ Your member account on our website: your name, what you are here to build, and t
 <Step title="Join Discord and link your account" href="/howtos/getting-started/discord-guide" time="10 min">
 Discord is the free chat app where the community talks every day. Typing <Command>/link</Command> connects it to your portal account and opens the server.
 </Step>
-<Step title="Learn the basics of Discord" href="/howtos/getting-started/using-discord" time="5 min">
-Post a question, message someone, send a file, and turn down notifications.
+<Step title="Say hi in your first week" href="/howtos/getting-started/your-first-week" time="5 min">
+Introduce yourself in <Channel>introduce-yourself</Channel>, and find your way around.
 </Step>
 </Steps>
 
@@ -28,8 +28,8 @@ On Discord, names that start with `#` are **channels**: chat rooms, one
 for each topic.
 
 <Cards>
-<Card title="Say hi in your first week" icon="hello" href="/howtos/getting-started/your-first-week">
-Introduce yourself in <Channel>introduce-yourself</Channel>, and find your way around.
+<Card title="Learn the basics of Discord" icon="help" href="/howtos/getting-started/using-discord">
+Post a question, message someone, send a file, and turn down notifications.
 </Card>
 <Card title="Ask for help, from AI and people" icon="help" href="/howtos/getting-started/getting-unstuck">
 Stuck on anything tech? Here is how to get help, from AI and from people in <Channel>ask-for-help</Channel>.
